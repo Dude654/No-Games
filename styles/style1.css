@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    background: #474747;
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+
+.btn{
+    width: 100px;
+    height: 100%;
+    border-color: transparent;
+    background: #474747;
+    color: #f2f2f2;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.btn:hover{
+    background: #ddd;
+    color: black;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.active{
+    background: rgb(65, 105, 225);
+    color: #fff;
+}
+
+.active:hover{
+    background: rgb(65, 105, 225);
+    color: #fff;
+}
+
+.gl-container{
+    width: 100%;
+    height: calc(100vh - 90px);
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2048{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    margin-top: 90px;
+}
+
+.index-container{
+    width: 100%;
+    height: calc(100vh - 90px);
+    background: aqua;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.index-text{
+    color: #474747;
+    padding-top: 20px;
+}
+
+.github-link{
+    align-self: flex-end;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.github-link-btn{
+    text-decoration: none;
+    color: #474747;
+}
+
+.github-link-btn:hover{
+    text-decoration: underline;
+    color: rgb(65, 105, 225);
+}
+
+.game{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.text{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.fs{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width: 30%;
+    height: 40px;
+    margin-left: 50px;
+    background: #474747;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #fff;
+    margin-top: 5px;
+}
+
+.button:hover{
+    background: rgb(65, 105, 225);
+    transition: 0.3s;
+}
+
+.fullscreen{
+    width: 100vw;
+    height: 100vh;
+}
+
+.games-list{
+    display: flex;
+    width: fit-content;
+    background: #474747;
+    margin-top: 90px;
+    justify-content: center;
+}
+
+.games{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(65, 105, 225);
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.games:hover{
+    cursor: pointer;
+    color: black;
+    background: #ddd;
+    transition: 0.3s;
+}
